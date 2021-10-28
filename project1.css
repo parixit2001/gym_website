@@ -1,0 +1,132 @@
+body{
+    background: url("gym.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+    
+.left{
+   
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    border-radius: 50%;
+
+}
+.left img{
+  width: 130px;
+  height: 70px;
+  border-radius: 100%;
+  
+ 
+}
+#parixit{
+  font-size: medium;
+  font-style: italic;
+  color: chocolate;
+  
+}
+.middle{
+
+border-radius: 20px;
+display: block;
+width: 60%;
+margin: 0px auto;
+
+
+
+}
+.right{
+  position: absolute;
+  top: 15px;
+  right: 0px;
+    display: inline-block;
+    font-size: small;
+
+    
+}
+.btn{
+  margin: 0px 5px;
+  background-color: yellow;
+  font-size: smaller;
+  border-radius: 40px;
+  
+}
+.btn:hover{
+  background-color: red;
+}
+
+.navBar{
+  display: inline-block;
+  padding: 0px auto;
+  font-size: medium;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+ 
+}
+
+.navBar li{
+  display: inline-block;
+  margin: 10px;
+
+  
+ 
+  
+  
+  
+}
+
+.navBar li a{
+  color: rgb(255, 234, 143);
+  margin: 5px;
+  text-decoration: none;
+
+}
+.navBar li a:hover{
+  color: red;
+  cursor: grab;
+  text-decoration: underline;
+  
+}
+
+.container{
+ 
+  padding: 10px;
+   margin-top: 70px;
+  margin-left: 0px;
+  width: 30%;
+  border-radius: 50px;
+  text-align: center;
+  
+}
+.form-group{
+  margin: 5px;
+  text-align: center;
+  display: block;
+  
+  
+  
+}
+.btn1{
+  
+  background-color: aliceblue;
+
+}
+ .btn1:hover{
+   background-color:red;
+ }
+ a:active{
+   color: blue;
+ }
+ #gender{
+   font-size: 10px;
+   
+ }
+ 
+
+
+
